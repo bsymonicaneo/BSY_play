@@ -39,7 +39,7 @@ const ground = Bodies.rectangle(310, 820, 620, 60, {
 const topLine = Bodies.rectangle(310, 150, 620, 2, { 
   name: "topLine",
   isStatic: true, // 탑 라인이 고정됨
-  isSensor: true, // 탑 라인에 부딪치지 않고 감지만 되도록
+  isSensor: true, // 탑 라인에 부딪치지 않고 감지만 되도록.
   render: { fillStyle: "#030a2b" } // full fill color
 })
 
